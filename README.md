@@ -6,6 +6,11 @@ I'm currently working as a Computer Architecture Researcher in the UCSB ArchLab 
 
 This past summer, I worked as a Full-Stack Software Engineering Intern for a startup called ConstructWise, an AI-powered app that automates the construction planning process. 
 
+## Projects 
+
+[Chip-8 Emulator](https://github.com/joshuaegray/chip8-emulator)
+- A CHIP-8 Emulator built from the ground in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!!
+
 
 ## Skills 🛠️
 
@@ -13,6 +18,7 @@ This past summer, I worked as a Full-Stack Software Engineering Intern for a sta
 - Frameworks: React, Next.js, Django, FastAPI
 - Developer Tools: Git, Linux, Bash, VS Code 
 - Databases and Cloud Tools: Supabase (PostreSQL)
+
 
 
 
