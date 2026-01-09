@@ -9,7 +9,7 @@ This past summer, I worked as a Full-Stack Software Engineering Intern for a sta
 ## Projects 
 
 [Chip-8 Emulator](https://github.com/joshuaegray/chip8-emulator)
-- A CHIP-8 Emulator built from the ground in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!!
+- A CHIP-8 Emulator built from the ground in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!
 
 
 ## Skills 🛠️
