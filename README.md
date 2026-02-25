@@ -2,16 +2,16 @@
 
 I'm a second-year Computer Science major at the University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.
 
-I'm currently working as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research specifically focuses on hardware accelerators and the optimizations designed for their unique micro-architectures.
+I'm currently working as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research specifically focuses on hardware accelerators and the optimizations designed for their unique micro-architectures. So far, we've implemented an ISA for OpenTPU and are now working a a generalized systolic array optimization.
 
 This past summer, I worked as a Full-Stack Software Engineering Intern for a startup called ConstructWise, an AI-powered app that automates the construction planning process. 
 
 ## Projects 
 
-[Chip-8 Emulator](https://github.com/joshuaegray/chip8-emulator)
+### [Chip-8 Emulator](https://github.com/joshuaegray/chip8-emulator)
 - A CHIP-8 Emulator built from the ground in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!
 
-[SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm](https://github.com/nathanqiuUCSB/RoboticArmHelper)
+### [SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm](https://github.com/nathanqiuUCSB/RoboticArmHelper)
 
 - Awarded best hardware hack at the 2026 UC Santa Barbara Hackathon
 - Built a voice-controlled robotic arm that detects and manipulates real-world objects using computer vision
@@ -19,12 +19,20 @@ This past summer, I worked as a Full-Stack Software Engineering Intern for a sta
 - Implemented FastAPI backned to route fronend audio input into motor control logic for robotic arm acutation
 - Tech Stack: React, FastAPI, Python, Grok, OpenCV, LeRobot
 
+### Pipelined MIPS CPU | CS154
 
+Implemented a 5-stage pipelined MIPS processor using PyRTL, including pipeline registers, hazard detection, and forwarding logic to ensure correct execution of dependent instructions. Verified processor behavior through cycle-accurate simulation of custom assembly programs and debugging of pipeline execution.
+
+**Concepts demonstrated:**
+- CPU pipeline design (IF, ID, EX, MEM, WB)
+- Data hazard detection and pipeline stalling
+- Forwarding to minimize pipeline stalls
+- Hardware design and simulation using PyRTL
 
 
 ## Skills 🛠️
 
-- Languages: C/C++, Python, Javascript, Java, MIPS assembly 
+- Languages: C/C++, Python, Javascript, Java, MIPS assembly, Verilog 
 - Frameworks: React, Next.js, Django, FastAPI
 - Developer Tools: Git, Linux, Bash, VS Code 
 - Databases and Cloud Tools: Supabase (PostreSQL)
