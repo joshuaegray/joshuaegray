@@ -22,8 +22,6 @@ This past summer, I worked as a Full-Stack Software Engineering Intern for a sta
 ### Pipelined MIPS CPU | CS154
 
 Implemented a 5-stage pipelined MIPS processor using PyRTL, including pipeline registers, hazard detection, and forwarding logic to ensure correct execution of dependent instructions. Verified processor behavior through cycle-accurate simulation of custom assembly programs and debugging of pipeline execution.
-
-**Concepts demonstrated:**
 - CPU pipeline design (IF, ID, EX, MEM, WB)
 - Data hazard detection and pipeline stalling
 - Forwarding to minimize pipeline stalls
