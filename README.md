@@ -21,12 +21,12 @@ Personal Website: https://joshuaegray.github.io/
 ## Projects
 
 ### Chip-8 Emulator
-- Repo: [chip8-emulator](https://github.com/joshuaegray/chip8-emulator)
+- [Repo](https://github.com/joshuaegray/chip8-emulator)
 - A CHIP-8 Emulator built from the ground up in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!
 
 ### SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm
 
-- Repo: [RoboticArmHelper](https://github.com/nathanqiuUCSB/RoboticArmHelper)
+- [Repo](https://github.com/nathanqiuUCSB/RoboticArmHelper)
 - Awarded best hardware hack at the 2026 UC Santa Barbara Hackathon
 - Built a voice-controlled robotic arm that detects and manipulates real-world objects using computer vision
 - Designed OpenCV-based visual feedback loops enabling autonomous navigation and target alignment in 3D space from a single camera
@@ -44,7 +44,7 @@ Implemented a 5-stage pipelined MIPS processor using PyRTL, including pipeline r
 ### FAIR Compliance Metadata Checker | UCSB Library Research Data Services
 
 Building a production-level metadata validation tool for Dataverse, UCSB's 10+ petabyte institutional repository
-- Repo: [metadata-checker](https://github.com/UCSB-Library-Research-Data-Services/metadata-checker)
+- [Repo](https://github.com/UCSB-Library-Research-Data-Services/metadata-checker)
 - Cut metadata processing time by 76% by designing a SQLite caching layer to avoid redundant API calls
 - Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML,
 eliminating hardcoded logic and enabling scalability with zero code changes
