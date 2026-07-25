@@ -3,7 +3,7 @@
 I'm a third-year Computer Science major at the University of California, Santa Barbara graduating Fall 2027 with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full-stack applications, backend systems, and processor emulators.
 
 
-Right now, I'm working as a Software Engineering Intern at UCSB, where I'm designing and building a FAIR-compliance pipeline to assess metadata quality for datasets published on Dataverse, UCSB's institutional academic repository system.
+Right now, I'm working as a Software Engineering Intern at UCSB, where I'm designing and building a [FAIR-compliance pipeline](https://github.com/UCSB-Library-Research-Data-Services/metadata-checker) to assess metadata quality for datasets published on Dataverse, UCSB's institutional academic repository system.
 
 I'm also working as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research specifically focuses on hardware accelerators and the optimizations designed for their unique microarchitectures. We've implemented an ISA for OpenTPU as well as a generalized systolic-array optimization into Professor Balkind's new ISA-design framework [Isacomp](https://github.com/isacomp-project/isacomp).
 
@@ -20,11 +20,13 @@ Personal Website: https://joshuaegray.github.io/
 
 ## Projects
 
-### [Chip-8 Emulator](https://github.com/joshuaegray/chip8-emulator)
+### Chip-8 Emulator
+- Repo: [chip8-emulator](https://github.com/joshuaegray/chip8-emulator)
 - A CHIP-8 Emulator built from the ground up in C++, including the CPU execution, memory management, timers, display, and keypad input. Check out the repo!
 
-### [SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm](https://github.com/nathanqiuUCSB/RoboticArmHelper)
+### SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm
 
+- Repo: [RoboticArmHelper](https://github.com/nathanqiuUCSB/RoboticArmHelper)
 - Awarded best hardware hack at the 2026 UC Santa Barbara Hackathon
 - Built a voice-controlled robotic arm that detects and manipulates real-world objects using computer vision
 - Designed OpenCV-based visual feedback loops enabling autonomous navigation and target alignment in 3D space from a single camera
@@ -39,9 +41,10 @@ Implemented a 5-stage pipelined MIPS processor using PyRTL, including pipeline r
 - Forwarding to minimize pipeline stalls
 - Hardware design and simulation using PyRTL
 
-### [FAIR Compliance Metadata Checker](https://github.com/UCSB-Library-Research-Data-Services/metadata-checker) | UCSB Library Research Data Services
+### FAIR Compliance Metadata Checker | UCSB Library Research Data Services
 
 Building a production-level metadata validation tool for Dataverse, UCSB's 10+ petabyte institutional repository
+- Repo: [metadata-checker](https://github.com/UCSB-Library-Research-Data-Services/metadata-checker)
 - Cut metadata processing time by 76% by designing a SQLite caching layer to avoid redundant API calls
 - Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML,
 eliminating hardcoded logic and enabling scalability with zero code changes
