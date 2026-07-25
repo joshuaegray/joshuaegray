@@ -58,7 +58,7 @@ A Java/JDBC CLI application pair simulating a real-world online retail platform,
 - Designed and implemented a normalized relational schema (11+ tables) on Oracle AI Database modeling products, customers, orders, inventory, and shipping.
 - Enforced referential integrity via foreign keys, CHECK constraints, and regex-validated identifiers
 - Built a full customer-facing shopping flow backed by parameterized, injection-safe JDBC queries against Oracle AI Database
-- Built a manager dashboard for price/status overrides, order pruning, and monthly sales analytics (top products, top categories, top customers) via aggregate SQL queries
+- Managed dependencies with Maven to ensure optimal package management and hygiene
 - Used JDBC transactions with explicit commit and rollback control to guarantee atomicity across multi-table operations
 
 ## Papers
